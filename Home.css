@@ -28,7 +28,7 @@ body {
   z-index: 1;
   width: 100%;
   background-color: #f1f1f1;
-  padding: 40px 10px;
+  padding: 20px 10px;
 }
 
 .headerSection li {
@@ -335,17 +335,20 @@ body {
   .codeBtn {
     font-weight: 700;
   }
+  .headerSection {
+    padding: 25px 10px;
+  }
+  .footerSection #name {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
   #name {
     display: none;
   }
   body {
     font-size: 20px;
     font-weight: 500px;
-  }
-  .footerSection #name {
-    display: block;
-    text-align: center;
-    width: 100%;
   }
 }
 
