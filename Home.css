@@ -9,11 +9,14 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 #name {
-  font-size: 1.50rem;
+  font-size: 2rem;
   font-weight: bolder;
+  line-height: 1;
 }
 
 .container {
@@ -42,6 +45,7 @@ body {
 
 .gotos {
   float: right;
+  margin-right: 2%;
 }
 
 .items {
@@ -197,6 +201,8 @@ body {
 
 .footerSection {
   background-color: rgb(0, 0, 0);
+  position: unset;
+  padding: 70px 0;
 }
 
 .footerSection li {
@@ -331,6 +337,11 @@ body {
   body {
     font-size: 20px;
     font-weight: 500px;
+  }
+  .footerSection #name {
+    display: block;
+    text-align: center;
+    width: 100%;
   }
 }
 
