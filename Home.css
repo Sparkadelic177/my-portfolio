@@ -109,11 +109,10 @@ body {
 .aboutmeSection {
   display: flex;
   flex-direction: column;
-  margin-top: -7px;
+  margin-top: 7px;
   color: black;
   text-align: center;
   padding: 150px;
-  z-index: -1;
   font-weight: lighter;
 }
 
@@ -127,8 +126,42 @@ body {
 
 .sectionHeader {
   text-align: center;
-  margin-bottom: 5%;
+  margin: 10% 0;
   font-size: 2rem;
+}
+
+.experience {
+  display: flex;
+  overflow-x: scroll;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.experienceBox {
+  display: flex;
+  justify-content: center;
+}
+
+.imgContainer {
+  display: inline-block;
+  width: 30%;
+}
+
+.imgExperience {
+  width: 100%;
+  height: auto;
+}
+
+.testimonial {
+  width: 20%;
+  border-left: 1px solid black;
+  padding: 2%;
+  line-height: 2rem;
+}
+
+.testimonialText {
+  font-weight: lighter;
 }
 
 .projectSection {
@@ -337,6 +370,9 @@ body {
   }
   .headerSection {
     padding: 25px 10px;
+  }
+  .footerSection {
+    padding: 70px 0;
   }
   .footerSection #name {
     display: block;
