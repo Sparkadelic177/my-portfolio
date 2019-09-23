@@ -109,7 +109,7 @@ body {
 .aboutmeSection {
   display: flex;
   flex-direction: column;
-  margin-top: 7px;
+  margin: 7px 0;
   color: black;
   text-align: center;
   padding: 150px;
@@ -126,8 +126,11 @@ body {
 
 .sectionHeader {
   text-align: center;
-  margin: 10% 0;
   font-size: 2rem;
+}
+
+.sectionHeader-projects {
+  margin-bottom: 5%;
 }
 
 .experience {
@@ -168,6 +171,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: darkgrey;
+  padding: 150px;
 }
 
 .project-row {
@@ -176,10 +181,10 @@ body {
   margin-bottom: 5%;
   width: 80%;
   height: 100%;
-  box-shadow: 5px 10px #888888;
-  border: 1px solid;
-  padding: 10px;
-  border-radius: 10px;
+  /* box-shadow: 5px 10px #888888; */
+  /* border: 1px solid; */
+  /* padding: 10px; */
+  /* border-radius: 10px; */
 }
 
 .project-title {
