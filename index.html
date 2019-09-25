@@ -148,50 +148,92 @@
     </section> -->
     <section class="projectSection">
       <h1 class="sectionHeader-projects">Projects</h1>
-      <div class="project-row">
-        <div class="project-leftSide">
-          <img src="better_finance.gif" class="gif" />
-        </div>
-        <div class="project-rightSide">
-          <p class="project-description">
-            <span class="project-title">Better Finance</span>
-            <br />Using Plaid"s API the app can retrieve a users personal finance records using their bank institution(s).
-            <br />
-            <strong>Technology Stack:</strong> M.E.R.N
-          </p>
-          <a class="codeBtn" href="https://github.com/Sparkadelic177/Better_Finance">Code</a>
-        </div>
-      </div>
-      <div class="project-row">
-        <div class="project-leftSide">
-          <img src="RGB-game.gif" class="gif" />
-        </div>
-        <div class="project-rightSide">
-          <p class="project-description">
-            <span class="project-title">RGB-Game</span>
-            <br/>The RGB-Game is a game designed to get more familiar with RGB colors that a computer is able to display
-            <br />
-            <strong>Technology Stack:</strong> HTML, CSS, JavaScript
-          </p>
-          <a class="codeBtn" href="https://github.com/Sparkadelic177/RGB-game">Code</a>
-        </div>
-      </div>
-      <div class="project-row">
-        <div class="project-leftSide">
-          <img src="RESTful_blog.gif" class="gif" />
-        </div>
-        <div class="project-rightSide">
-          <p class="project-description">
-            <span class="project-title">RESTful Blog</span>
-            <br /> This is a CRUD application that lets you read, view, edit and delete blogs.
-            <br />
-            <strong>Technology Stack:</strong> HTML, CSS, JavaScript, Mongo, Express.js, EJS
 
-          </p>
-          <a class="codeBtn" href="https://github.com/Sparkadelic177/RESTful-Blog">Code</a>
+
+      <div class="slideshow-container">
+
+        <div class="project-row mySlides fade">
+          <h3 class="project-title">Better Finance</h3>
+          <div class="project-leftSide">
+            <img src="better_finance.gif" class="gif" />
+          </div>
+          <div class="project-rightSide">
+            <p class="project-description">
+
+              <br />Using Plaid"s API the app can retrieve a users personal finance records using their bank institution(s).
+              <br />
+              <strong>Technology Stack:</strong> M.E.R.N
+            </p>
+            <a class="codeBtn" href="https://github.com/Sparkadelic177/Better_Finance">Code</a>
+          </div>
         </div>
+
+
+        <div class="project-row mySlides fade">
+          <h3 class="project-title">RGB-Game</h3>
+          <div class="project-leftSide">
+            <img src="RGB-game.gif" class="gif" />
+          </div>
+          <div class="project-rightSide">
+            <p class="project-description">
+
+              <br/>The RGB-Game is a game designed to get more familiar with RGB colors that a computer is able to display
+              <br />
+              <strong>Technology Stack:</strong> HTML, CSS, JavaScript
+            </p>
+            <a class="codeBtn" href="https://github.com/Sparkadelic177/RGB-game">Code</a>
+          </div>
+        </div>
+
+
+        <div class="project-row mySlides fade">
+          <h3 class="project-title">RESTful Blog</h3>
+          <div class="project-leftSide">
+            <img src="RESTful_blog.gif" class="gif" />
+          </div>
+          <div class="project-rightSide">
+            <p class="project-description">
+
+              <br /> This is a CRUD application that lets you read, view, edit and delete blogs.
+              <br />
+              <strong>Technology Stack:</strong> HTML, CSS, JavaScript, Mongo, Express.js, EJS
+
+            </p>
+            <a class="codeBtn" href="https://github.com/Sparkadelic177/RESTful-Blog">Code</a>
+          </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
+
+
+      <!-- <div class="project-row mySlides fade">
+        <h3 class="project-title">Instagram Clone</h3>
+        <div class="project-leftSide">
+          <img src="instagramCloneWalkThrough.gif" class="gif" />
+        </div>
+        <div class="project-rightSide">
+          <p class="project-description">
+
+            <br />InstagramClone is a photo sharing app similar to Instagram but using Parse as its backend.
+            <br />
+            <strong>Technology Stack:</strong> Java (Android), Parse (Backend)
+          </p>
+          <a class="codeBtn" href="https://github.com/Sparkadelic177/InstagramClone">Code</a>
+        </div>
+      </div> -->
+
+      <!-- Button dots at the bottom of slides -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <!-- <span class="dot" onclick="currentSlide(4)"></span> -->
+      </div>
+
     </section>
+    <!-- Ending of the project section -->
+    <!-- Start of the Footer section -->
     <section class="footerSection headerSection">
       <li id="name">Sparky Evangelista</li>
       <ul class="gotos">
@@ -224,11 +266,7 @@
       </ul>
     </section>
   </div>
-  <script>
-    function myFunction(x) {
-      x.classList.toggle("change");
-    }
-  </script>
+  <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>

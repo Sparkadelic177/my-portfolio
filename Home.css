@@ -130,7 +130,7 @@ body {
 }
 
 .sectionHeader-projects {
-  margin-bottom: 5%;
+  margin: 5%;
 }
 
 .experience {
@@ -148,7 +148,7 @@ body {
 
 .imgContainer {
   display: inline-block;
-  width: 30%;
+  /* width: 30%; */
 }
 
 .imgExperience {
@@ -172,22 +172,13 @@ body {
   flex-direction: column;
   align-items: center;
   background: darkgrey;
-  padding: 150px;
+  /* padding: 150px; */
 }
 
-.project-row {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5%;
-  width: 80%;
-  height: 100%;
-  /* box-shadow: 5px 10px #888888; */
-  /* border: 1px solid; */
-  /* padding: 10px; */
-  /* border-radius: 10px; */
-}
+.project-row {}
 
 .project-title {
+  text-align: center;
   font-size: 2rem;
   text-decoration: underline;
 }
@@ -196,7 +187,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 100%;
   height: auto;
   overflow: hidden;
 }
@@ -206,9 +197,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 40%;
-  height: auto;
-  margin-left: 10%;
+  margin-bottom: 4%;
   font-weight: lighter;
 }
 
@@ -216,15 +205,17 @@ body {
   width: 100%;
   text-align: center;
   margin-bottom: 5px;
+  font-size: 20px;
 }
 
 .codeBtn {
-  padding: 5px;
+  padding: 20px;
   border: 1px solid;
   background-color: red;
   color: white;
-  border-radius: 5px;
+  border-radius: 15px;
   text-transform: uppercase;
+  font-size: 25px;
 }
 
 .android {
@@ -232,7 +223,7 @@ body {
 }
 
 .gif {
-  width: 100%;
+  width: 50%;
   height: auto;
   border: 1px solid;
   padding: 1px;
@@ -250,6 +241,86 @@ body {
 
 .footerSection .medium {
   background-color: white;
+}
+
+/* The dots/bullets/indicators */
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.slideshow-container {
+  min-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 1220px) {
