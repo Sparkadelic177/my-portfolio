@@ -29,7 +29,6 @@ body {
   width: 100%;
   background-color: #f1f1f1;
   padding: 20px 10px;
-  overflow-x: hidden;
 }
 
 .headerSection li {
@@ -250,19 +249,19 @@ body {
 
 /* The dots/bullets/indicators */
 
-.dot {
+.dot, .dot-mobile {
   cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active, .dot:hover, .dot-mobile:hover {
+  background-color: #00b418;
 }
 
 .slideshow-container {
@@ -286,13 +285,18 @@ body {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  font-size: 40px;
 }
 
 /* Position the "next button" to the right */
 
 .next {
-  right: 0;
+  right: 40px;
   border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 40px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -364,6 +368,9 @@ body {
     margin: 6px 0;
     transition: 0.4s;
     z-index: 2;
+  }
+  .project-description, .text {
+    font-size: 1.5rem;
   }
   /* Rotate first bar */
   .change .bar1 {
@@ -466,7 +473,13 @@ body {
     font-weight: 500px;
   }
   .prev, .next {
-    font-size: 11px;
+    font-size: 1.5rem;
+  }
+  .gif {
+    width: 60%;
+  }
+  .mobile-gif {
+    width: 30%;
   }
 }
 

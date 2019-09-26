@@ -4,17 +4,24 @@ var mobileIndex = 1;
 showSlides(slideIndex);
 currentMobile(mobileIndex);
 
+//function for the arrow in web based projects
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
+
+//function for the dots class
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+
+//function for the arrow in mobile projects
 function mobileSlides(n) {
     currentMobile(mobileIndex += n);
 }
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+
 
 function showSlides(n) {
     var i;
