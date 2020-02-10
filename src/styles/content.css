@@ -1,0 +1,21 @@
+.content_container {
+  height: 100vh;
+  background-color: #f7f7f7e1;
+}
+
+.youtube_content {
+  position: relative;
+
+  height: 50%;
+}
+
+.subscribe_btn {
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  /* padding-top: 10%; */
+}
+
+.medium_conent {
+  height: 50%;
+}

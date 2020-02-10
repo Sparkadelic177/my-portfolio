@@ -1,0 +1,45 @@
+#name {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.headerSection {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 60px 10px;
+}
+
+.headerSection li {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
+  border-radius: 4px;
+  list-style-type: none;
+}
+
+.gotos {
+  float: right;
+  margin-right: 2%;
+}
+
+.items {
+  transition: all 0.5s;
+}
+
+.items:hover {
+  transform: scale(1.5);
+}
+
+.items:active {
+  transform: scale(0.5);
+}
+
+.item-image {
+  height: 40px;
+}
