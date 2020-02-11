@@ -6,17 +6,13 @@ const Header = () => {
   return (
     <div className="headerSection">
       <li id="name">Sparky Evangelista</li>
-      <ul className="gotos">
-        <li className="items">
-          <Link to="/">Home</Link>
-        </li>
-        {/* <li className="items">
-          <Link to="/content">Content</Link>
-        </li>
-        <li className="items">
-          <Link to="/projects">Projects</Link>
-        </li> */}
-      </ul>
+      <div
+        class="g-ytsubscribe"
+        data-channelid="UCwSKlD8oNKTnQ19Tbe5stUg"
+        data-layout="default"
+        data-theme="dark"
+        data-count="default"
+      ></div>
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "../src/views/home";
-import Content from "../src/views/content";
-import Projects from "../src/views/projects";
+import Projects from "./views/projects";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -12,8 +11,6 @@ function App() {
     <Router className="App">
       <Header />
       <Route exact path="/" component={Home} />
-      {/* <Route exact path="/content" component={Content} /> */}
-      {/* <Route exact path="/projects" component={Projects} /> */}
       <Footer />
     </Router>
   );
