@@ -41,20 +41,11 @@ export default class Home extends Component {
             <h1>Yes you guessed it right, my real name is Sparky.</h1>
             <br />
             <p class="text">
-              I am a senior in Queens College studying Computer Science and
-              co-founder of CollabTrade. I love the art of developing and
+              I am a Application Developer at NYC Department of Citywide
+              Administrative Services (DCAS) . I love the art of developing and
               creating things from scratch and being able to solve complex
               problems. I am fueled with passion by innovation and ground
-              breaking technologies in hopes that I get to work them someday. I
-              currently intern at NYC Department of Citywide Administrative
-              Services (DCAS) as a Web Developer where I maintain both their
-              internet and intranet sites using Teamsite and Umbraco CMS. I have
-              been apart of the redesign of both sites to make them mobile
-              friendly and accessible, ensuring there are no barriers that
-              prevent interaction with, or access to, the sites by people with
-              disabilities. I am actively searching for a new intern or full
-              time position as a Full Stack Developer to continue my progress in
-              learning new things.
+              breaking technologies in hopes that I get to work them someday.
               <br />
               <a href="../techResume.pdf" target="_blank" id="resume">
                 Resume
