@@ -47,7 +47,7 @@ export default class Home extends Component {
               problems. I am fueled with passion by innovation and ground
               breaking technologies in hopes that I get to work them someday.
               <br />
-              <a href="../techResume.pdf" target="_blank" id="resume">
+              <a href="./techResume.pdf" target="_blank" id="resume">
                 Resume
               </a>
             </p>
