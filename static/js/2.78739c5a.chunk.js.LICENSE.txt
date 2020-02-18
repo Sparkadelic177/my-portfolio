@@ -4,11 +4,12 @@ object-assign
 @license MIT
 */
 
-/*!
- * The buffer module from node.js, for the browser.
+/**
+ * A better abstraction over CSS.
  *
- * @author   Feross Aboukhadijeh <http://feross.org>
- * @license  MIT
+ * @copyright Oleg Isonen (Slobodskoi) / Isonen 2014-present
+ * @website https://github.com/cssinjs/jss
+ * @license MIT
  */
 
 /** @license React v0.18.0
