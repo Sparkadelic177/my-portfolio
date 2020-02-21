@@ -1,17 +1,21 @@
 import React from "react";
-import Home from "../src/views/home";
-import Projects from "./views/projects";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Home, Blogs, Projects, YouTube } from "./views";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 
 function App() {
+  console.log();
   return (
     <Router className="App">
       <Header />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/projects" component={Projects} />
+      <Switch>
+        <Route exact path="/my-portfolio" component={Home} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/blogs" component={Blogs} />
+        <Route exact path="/youtube" component={YouTube} />
+      </Switch>
       <Footer />
     </Router>
   );

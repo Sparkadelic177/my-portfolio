@@ -1,0 +1,31 @@
+.blog_container {
+  width: 40%;
+  height: auto;
+  margin: 2%;
+  cursor: pointer;
+  color: black;
+  /* border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px; */
+}
+
+.blog_title {
+  font-weight: 800;
+  font-size: medium;
+  text-align: center;
+}
+
+.blog_image {
+  height: 90%;
+  width: 100%;
+}
+
+.blog_date {
+  text-align: end;
+  font-weight: 200;
+  font-size: small;
+}
+
+.image_container {
+  height: 20rem;
+}

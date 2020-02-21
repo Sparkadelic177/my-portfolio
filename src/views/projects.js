@@ -21,7 +21,6 @@ const Projects = () => {
         headers: { Accept: "application/vnd.github.v3+json" }
       })
       .then(res => {
-        console.log(res.data);
         let java = res.data.filter(data => data.language === "Java");
         let js = res.data.filter(data => data.language === "JavaScript");
         setJava([...java]);

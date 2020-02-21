@@ -41,12 +41,16 @@ const Home = () => {
           <br />
           <p class="text">
             I am a Application Developer at NYC Department of Citywide
-            Administrative Services (DCAS) . I love the art of developing and
+            Administrative Services (DCAS) and I love the art of developing and
             creating things from scratch and being able to solve complex
             problems. I am fueled with passion by innovation and ground breaking
             technologies in hopes that I get to work them someday.
             <br />
-            <a href="./techResume.pdf" target="_blank" id="resume">
+            <a
+              href="https://drive.google.com/file/d/19tCyEFs4sOtZSrho0C6R5YI204dDlejf/view?usp=sharing"
+              target="_blank"
+              id="resume"
+            >
               Resume
             </a>
           </p>

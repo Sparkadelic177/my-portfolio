@@ -1,0 +1,51 @@
+.youtube_container {
+  display: flex;
+  position: relative;
+}
+
+.rightside_youtube,
+.leftside_youtube {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftside_youtube {
+  align-items: center;
+  background-color: #0d6129;
+  width: 30%;
+  padding: 3rem;
+}
+
+.rightside_youtube {
+  width: 70%;
+}
+
+.rightside_youtube > h2 {
+  text-align: center;
+}
+
+.rightside_youtube > h3 {
+  padding: 1rem;
+}
+
+.youtubeImage_container {
+  width: 100%;
+  height: auto;
+}
+
+#youtubeImage {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  border-radius: 1000px;
+}
+
+.video_titles {
+  text-align: center;
+}
+
+.video_title_link {
+  color: black;
+  font-size: medium;
+  font-weight: 500;
+}
