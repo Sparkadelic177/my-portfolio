@@ -7,37 +7,24 @@ import axios from "axios";
 //we need the name, description, html_url
 
 const Projects = () => {
-  const [java, setJava] = useState([]);
-  const [javaScript, setJS] = useState([]);
-
-  const states = [
-    [java, "Java"],
-    [javaScript, "JavaScript"]
-  ];
+  const [languages, setLanguages] = useState([]);
 
   useEffect(() => {
     axios
       .get("https://api.github.com/users/Sparkadelic177/repos", {
-        headers: { Accept: "application/vnd.github.v3+json" }
+        headers: { Accept: "application/vnd.github.v3+json" },
       })
-      .then(res => {
-        let java = res.data.filter(data => data.language === "Java");
-        let js = res.data.filter(data => data.language === "JavaScript");
-        setJava([...java]);
-        setJS([...js]);
+      .then((res) => {
+        setLanguages([...res.data]);
       })
-      .catch(error => console.log(error));
+      .catch((error) => console.log(error));
   }, []);
 
   return (
     <div className="content_container">
-      {states.map(state => {
-        return (
-          <section className="tableSection">
-            <Table data={state[0]} language={state[1]} />
-          </section>
-        );
-      })}
+      <section className="tableSection">
+        <Table data={languages} />
+      </section>
     </div>
   );
 };

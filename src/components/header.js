@@ -10,16 +10,23 @@ const Header = () => {
         <li className="nav">
           <Link to="/my-portfolio">Home</Link>
         </li>
-
-        <li className="nav">
-          <Link to="/projects">Projects</Link>
-        </li>
         <li className="nav">
           <Link to="/blogs">Blogs</Link>
         </li>
+
         <li className="nav">
-          <Link to="/youtube">YouTube</Link>
+          <a
+            href="https://drive.google.com/file/d/19tCyEFs4sOtZSrho0C6R5YI204dDlejf/view?usp=sharing"
+            target="_blank"
+            id="resume"
+          >
+            Resume
+          </a>
         </li>
+
+        {/* <li className="nav">
+          <Link to="/youtube">YouTube</Link>
+        </li> */}
       </ul>
     </div>
   );

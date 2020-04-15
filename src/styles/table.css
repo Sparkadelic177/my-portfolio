@@ -1,5 +1,9 @@
+.table_container {
+  height: 100%;
+}
+
 h2 {
-    width: 100%;
-    text-align: center;
-    padding: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
 }

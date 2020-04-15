@@ -32,6 +32,7 @@ const YouTube = () => {
         <div className="youtubeImage_container">
           <a href={data.home_page_url}>
             <img
+              alt="Sturdy Code's Youtube Channel"
               id="youtubeImage"
               src={require("../images/youtubeImage.JPG")}
             />

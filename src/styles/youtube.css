@@ -1,6 +1,7 @@
 .youtube_container {
   display: flex;
   position: relative;
+  height: 100vh;
 }
 
 .rightside_youtube,
@@ -33,13 +34,6 @@
   height: auto;
 }
 
-#youtubeImage {
-  width: 100%;
-  height: auto;
-  margin-top: 2rem;
-  border-radius: 1000px;
-}
-
 .video_titles {
   text-align: center;
 }
@@ -49,3 +43,29 @@
   font-size: medium;
   font-weight: 500;
 }
+
+.video_title_link:hover {
+  color: red;
+}
+
+#youtubeImage {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  border-radius: 1000px;
+}
+#youtubeImage:hover {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+#youtubeImage:active {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  transform: translateY(4px);
+}
+
+/* #video_scroll {
+  height: 100%;
+  overflow-x: scroll;
+} */

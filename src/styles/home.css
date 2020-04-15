@@ -56,3 +56,7 @@
 .aboutme-text {
   font-size: 1.25rem;
 }
+
+.projectSection > h2 {
+  text-align: center;
+}

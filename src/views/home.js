@@ -1,4 +1,5 @@
 import React from "react";
+import Project from "./projects";
 import "../styles/home.css";
 
 const Home = () => {
@@ -45,16 +46,12 @@ const Home = () => {
             creating things from scratch and being able to solve complex
             problems. I am fueled with passion by innovation and ground breaking
             technologies in hopes that I get to work them someday.
-            <br />
-            <a
-              href="https://drive.google.com/file/d/19tCyEFs4sOtZSrho0C6R5YI204dDlejf/view?usp=sharing"
-              target="_blank"
-              id="resume"
-            >
-              Resume
-            </a>
           </p>
         </div>
+      </section>
+      <section className="projectSection">
+        <h2>Projects</h2>
+        <Project />
       </section>
     </div>
   );
