@@ -8,14 +8,19 @@ const Header = () => {
       <li id="name">Sparky Evangelista</li>
       <ul className="gotos">
         <li className="nav">
-          <Link to="/my-portfolio">Home</Link>
+          <Link className="headerLink" to="/my-portfolio">
+            Home
+          </Link>
         </li>
         <li className="nav">
-          <Link to="/blogs">Blogs</Link>
+          <Link className="headerLink" to="/blogs">
+            Blogs
+          </Link>
         </li>
 
         <li className="nav">
           <a
+            className="headerLink"
             href="https://drive.google.com/file/d/19tCyEFs4sOtZSrho0C6R5YI204dDlejf/view?usp=sharing"
             target="_blank"
             id="resume"

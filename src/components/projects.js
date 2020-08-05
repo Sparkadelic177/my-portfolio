@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/projects.css";
-import Table from "../components/table";
+import Table from "./table";
 import axios from "axios";
 
 //here I wull use the githib api and have new projects show up all the time
@@ -22,6 +22,7 @@ const Projects = () => {
 
   return (
     <div className="content_container">
+      <h2 style={{ textAlign: "Center" }}>Github Repos</h2>
       <section className="tableSection">
         <Table data={languages} />
       </section>

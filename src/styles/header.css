@@ -13,14 +13,20 @@
 
 .headerSection li {
   float: left;
-  color: black;
+  color: inherit;
   text-align: center;
-  padding: 0 12px;
+  padding: 0 1rem;
   text-decoration: none;
   font-size: 18px;
   line-height: 20px;
   border-radius: 4px;
-  list-style-type: none;
+  list-style: none;
+}
+
+.headerLink {
+  color: green;
+  font-weight: 600;
+  font-size: larger;
 }
 
 .gotos {
