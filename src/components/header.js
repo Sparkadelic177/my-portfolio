@@ -7,16 +7,16 @@ const Header = () => {
     <div className="headerSection">
       <li id="name">Sparky Evangelista</li>
       <ul className="gotos">
-        <li className="nav">
+        {/* <li className="nav">
           <Link className="headerLink" to="/my-portfolio">
             Home
           </Link>
-        </li>
-        <li className="nav">
+        </li> */}
+        {/* <li className="nav">
           <Link className="headerLink" to="/blogs">
             Blogs
           </Link>
-        </li>
+        </li> */}
 
         <li className="nav">
           <a
